@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+ 
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 17.5%;
+    width:7px;
+    background-color: #303030;
+}
+
+.minibox {
+    height: 5px;
+    width:12px;
+    background-color: #303030;
+}
+
+.box {
+    height: 74%;
+    width: 26%;
+    background-color: #303030;
+    margin-bottom: 10%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.innerbox1 {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+h6 {
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.innerbox2 {
+    width: 90%;
+    height: 95%;
+    background-color: #262626;
+    border-radius: 7px;
+}
+
+.skylinebox {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skyline {
+    width: 17px;
+    height: 5px;
+    background-color: aqua;
+    margin-left: 90%;
+    border-radius: 15px;
+}
+
+.freehands {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 40%;
+}
+
+.ftext {
+    font-weight: 1000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:aqua;
+}
+
+.welcome_text {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h5{
+    color: gray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.searchbox {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    height: 80%;
+    width: 90%;
+    border: 1px solid gray; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.inputbox1{
+    width: 100%; 
+    height: 50%;  
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.inputbox2{
+    width: 100%; 
+    height: 50%;  
+    display: flex;
+    align-items: center;
+}
+
+input {
+   width: 70%;
+   border: none;
+   outline: none;
+   background: transparent;
+   margin:0 10px;
+   color: white;
+}
+
+.inputbox3,button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    color: white;
+}
+button{
+    background-color: aqua;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.pass-eye {
+    margin-left: 19%;
+    position: absolute; 
+    cursor: pointer;
+}
+
+#open-eye {
+    display: none;
+}
